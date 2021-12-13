@@ -21,9 +21,9 @@ export function MyTabMaterialNavigation() {
           name='Home'
           component={HomeScreen}
           options={{
-            tabBarLabel: 'Inicio',
+            tabBarLabel: 'Perfil',
             tabBarIcon: ({ color }) => (
-              <MaterialCommunityIcons name="home" color={color} size={26} />
+              <MaterialCommunityIcons name="face-woman" color={color} size={26} />
             ),
           }} 
         />
