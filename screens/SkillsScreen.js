@@ -1,19 +1,15 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { Button } from 'react-native-paper'
+import { ScrollView} from 'react-native';
+import { SafeAreaView } from "react-native-safe-area-context";
 
-export function SkillsScreen({navigation}) {
+import ListAccordionComponent from '../components/ListAccordionComponent';
+
+export function SkillsScreen() {
   return(
-    <View style={styles.container}>
-        <Text>SKILLS</Text>
-    </View>
+    <SafeAreaView >
+    <ScrollView >
+        <ListAccordionComponent/>
+    </ScrollView>
+    </SafeAreaView>
   )
 }
-
-const styles = StyleSheet.create({
-   container: {
-     flex: 1,
-     alignItems: 'center',
-     justifyContent: 'center',
-   },
-});

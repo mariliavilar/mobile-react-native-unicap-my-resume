@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Avatar, Button, Card, Title, Paragraph } from 'react-native-paper';
+import { Avatar, Card, Title, Paragraph } from 'react-native-paper';
+
 import ButtonLinkingComponent from './ButtonLinkingComponent';
 
 const LeftContent = props => <Avatar.Icon {...props} icon={"pin"} />

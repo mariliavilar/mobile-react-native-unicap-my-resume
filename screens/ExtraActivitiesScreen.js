@@ -1,12 +1,15 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { Button } from 'react-native-paper'
+import { StyleSheet } from 'react-native';
+import { SafeAreaView } from "react-native-safe-area-context";
 
-export function ExtraActivitiesScreen({navigation}) {
+import FlatListComponent from '../components/FlatListComponent';
+
+
+export function ExtraActivitiesScreen() {
   return(
-    <View style={styles.container}>
-        <Text>EXTRA ACTIVITIES</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+        <FlatListComponent/>
+    </SafeAreaView>
   )
 }
 
