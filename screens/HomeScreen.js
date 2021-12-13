@@ -22,7 +22,7 @@ export function HomeScreen({navigation}) {
         <AvatarComponent/>
         <Headline>{name}</Headline>
         <Title>{description}</Title>
-        <ButtonLinkingComponent title='linkedin' url={contactLinkedin}>
+        <ButtonLinkingComponent title='linkedin' icon='linkedin' url={contactLinkedin}>
           {name}
         </ButtonLinkingComponent>
         <Subheading>Um pouco sobre mim</Subheading>
